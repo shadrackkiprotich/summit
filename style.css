@@ -734,7 +734,7 @@ hr {
 
 /*  ******************************************************** LOCATION *********************************************/
 .cont{
-  background: #3B3B3B url('../images/contact-bg.jpg') no-repeat center center;
+  background: #3B3B3B url("images/contact-bg.jpg") no-repeat center center;
 background-size: cover;
 color: #ffffff;
 
