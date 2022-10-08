@@ -135,18 +135,509 @@ header .icons button a{
 }
 
 
-.homepage{
-    background-image: url("images/banner-bg-two.jpg");
-    height: 100vh;
+
+
+.homepage {
+  background-image: url("images/spaeker-background.jpg");
   
-}
-.container{
-    
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 100px;
+    background-attachment: fixed;
+    background-position: center;
 
 }
+.homepage h3{
+  padding-top: 16%;
+  color: white;
+  text-align: center;
+  font-family: serif;
+ font-size: 40px;
+}
+.homepage h4{
+  font-weight: 800;
+  font-size: 60px;
+  font-family: serif;
+  color: white;
+  text-align: center;
+ padding-top: -60px;
+ letter-spacing: 2.5px;
+}
+.homepage h2{
+  font-weight: 800;
+  font-size: 30px;
+  font-family: serif;
+  color:#0196e3;
+  text-align: center;
+ padding-top: -60px;
+ letter-spacing: 2.5px;
+}
+.homepage .paragraph{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#fff;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.homepage .paragraph p{
+  padding: 2px; 
+  text-align: center;
+  margin-bottom: -1px;
+  color: black;
+  font-weight: 700px;
+}
+
+.rap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: -95px;
+  margin-bottom: -80px;
+}
+.rap img{
+  width: 400px;
+  height: auto; 
+  margin-right: -230px;
+}
+.text-coll h4, .text-coll span{
+  font-weight: 800;
+  font-size: 60px;
+  font-family: serif;
+  letter-spacing: 1.5px;
+}
+.text-coll span{
+    color: rgb(41, 41, 242);
+  
+}
+@media (max-width:1100px){
+
+  .homepage h3{
+    padding-top: 18%;
+    color: white;
+    text-align: center;
+    font-family: serif;
+   font-size: 21px;
+  }
+  .homepage h4{
+    font-weight: 800;
+    font-size: 30px;
+    font-family: serif;
+    color: white;
+    text-align: center;
+   padding-top: -60px;
+   letter-spacing: 2.5px;
+  }
+  .homepage h2{
+    font-weight: 800;
+    font-size: 15px;
+    font-family: serif;
+    color:#0196e3;
+    text-align: center;
+   padding-top: -60px;
+   letter-spacing: 2.5px;
+  }
+  .homepage .paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#fff;
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+  .homepage .paragraph p{
+    padding: 2px; 
+    text-align: center;
+    margin-bottom: -1px;
+    color: black;
+    font-weight: 700px;
+    font-size: 9px;
+  }
+  
+  .rap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: -55px;
+    margin-bottom: -50px;
+  }
+  .rap img{
+    width: 250px;
+    height: auto; 
+    margin-right: -130px;
+  }
+  .text-coll h4, .text-coll span{
+    font-weight: 800;
+    font-size: 30px;
+    font-family: serif;
+    letter-spacing: 1.5px;
+  }
+  .text-coll span{
+      color: rgb(41, 41, 242);
+  
+  }
+ 
+}
+@media (max-width:991px){
+
+  .homepage h3{
+    padding-top: 22%;
+    color: white;
+    text-align: center;
+    font-family: serif;
+   font-size: 21px;
+  }
+  .homepage h4{
+    font-weight: 800;
+    font-size: 30px;
+    font-family: serif;
+    color: white;
+    text-align: center;
+   padding-top: -60px;
+   letter-spacing: 2.5px;
+  }
+  .homepage h2{
+    font-weight: 800;
+    font-size: 15px;
+    font-family: serif;
+    color:#0196e3;
+    text-align: center;
+   padding-top: -60px;
+   letter-spacing: 2.5px;
+  }
+  .homepage .paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#fff;
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+  .homepage .paragraph p{
+    padding: 2px; 
+    text-align: center;
+    margin-bottom: -1px;
+    color: black;
+    font-weight: 700px;
+    font-size: 9px;
+  }
+  
+  .rap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: -55px;
+    margin-bottom: -50px;
+  }
+  .rap img{
+    width: 250px;
+    height: auto; 
+    margin-right: -130px;
+  }
+  .text-coll h4, .text-coll span{
+    font-weight: 800;
+    font-size: 30px;
+    font-family: serif;
+    letter-spacing: 1.5px;
+  }
+  .text-coll span{
+      color: rgb(41, 41, 242);
+  
+  }
+ 
+}
+
+@media (max-width:800px){
+
+  .homepage h3{
+    padding-top: 27%;
+    color: white;
+    text-align: center;
+    font-family: serif;
+   font-size: 21px;
+  }
+  .homepage h4{
+    font-weight: 800;
+    font-size: 30px;
+    font-family: serif;
+    color: white;
+    text-align: center;
+   padding-top: -60px;
+   letter-spacing: 2.5px;
+  }
+  .homepage h2{
+    font-weight: 800;
+    font-size: 15px;
+    font-family: serif;
+    color:#0196e3;
+    text-align: center;
+   padding-top: -60px;
+   letter-spacing: 2.5px;
+  }
+  .homepage .paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#fff;
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+  .homepage .paragraph p{
+    padding: 2px; 
+    text-align: center;
+    margin-bottom: -1px;
+    color: black;
+    font-weight: 700px;
+    font-size: 9px;
+  }
+  
+  .rap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: -55px;
+    margin-bottom: -50px;
+  }
+  .rap img{
+    width: 250px;
+    height: auto; 
+    margin-right: -130px;
+  }
+  .text-coll h4, .text-coll span{
+    font-weight: 800;
+    font-size: 30px;
+    font-family: serif;
+    letter-spacing: 1.5px;
+  }
+  .text-coll span{
+      color: rgb(41, 41, 242);
+  
+  }
+ 
+}
+@media (max-width:496px){
+
+  .homepage h3{
+    padding-top: 45%;
+    color: white;
+    text-align: center;
+    font-family: serif;
+   font-size: 18px;
+  }
+  .homepage h4{
+    font-weight: 800;
+    font-size: 25px;
+    font-family: serif;
+    color: white;
+    text-align: center;
+   padding-top: -40px;
+   letter-spacing: 2.5px;
+  }
+  .homepage h2{
+    font-weight: 800;
+    font-size: 13px;
+    font-family: serif;
+    color:#0196e3;
+    text-align: center;
+   padding-top: -50px;
+   letter-spacing: 2.5px;
+  }
+  .homepage .paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#fff;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10px;
+   
+  }
+  .homepage .paragraph p{
+   
+    padding: 2px; 
+    text-align: center;
+    margin-bottom: -1px;
+    color: black;
+    font-weight: 700px;
+    font-size: 9px;
+  }
+  
+  .rap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: -40px;
+    margin-bottom: -35px;
+  }
+  .rap img{
+    width: 200px;
+    height: auto; 
+    margin-right: -110px;
+  }
+  .text-coll h4, .text-coll span{
+    font-weight: 800;
+    font-size: 25px;
+    font-family: serif;
+    letter-spacing: 1.5px;
+  }
+  .text-coll span{
+      color: rgb(41, 41, 242);
+
+}
+
+}
+@media (max-width:422px){
+
+  .homepage h3{
+    padding-top: 62%;
+    color: white;
+    text-align: center;
+    font-family: serif;
+   font-size: 18px;
+  }
+  .homepage h4{
+    font-weight: 800;
+    font-size: 20px;
+    font-family: serif;
+    color: white;
+    text-align: center;
+   padding-top: -40px;
+   letter-spacing: 2.5px;
+  }
+  .homepage h2{
+    font-weight: 800;
+    font-size: 10px;
+    font-family: serif;
+    color:#0196e3;
+    text-align: center;
+   padding-top: -40px;
+   margin-top: 10px;
+   letter-spacing: 2.5px;
+  }
+  .homepage .paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#fff;
+    margin-left: 27%;
+    margin-right: 27%;
+    margin-top: 10px;
+   
+  }
+  .homepage .paragraph p{
+   
+    padding: 2px; 
+    text-align: center;
+    margin-bottom: -1px;
+    color: black;
+    font-weight: 700px;
+    font-size: 10px;
+  }
+  
+  .rap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: -30px;
+    margin-bottom: -30px;
+  }
+  .rap img{
+    width: 160px;
+    height: auto; 
+    margin-right: -90px;
+  }
+  .text-coll h4, .text-coll span{
+    font-weight: 800;
+    font-size: 20px;
+    font-family: serif;
+    letter-spacing: 1.5px;
+  }
+  .text-coll span{
+      color: rgb(41, 41, 242);
+
+}
+
+}
+@media (max-width:422px){
+
+  .homepage h3{
+    padding-top: 72%;
+    color: white;
+    text-align: center;
+    font-family: serif;
+   font-size: 16px;
+  }
+  .homepage h4{
+    font-weight: 800;
+    font-size: 18px;
+    font-family: serif;
+    color: white;
+    text-align: center;
+   padding-top: -40px;
+   letter-spacing: 2.5px;
+  }
+  .homepage h2{
+    font-weight: 800;
+    font-size: 8px;
+    font-family: serif;
+    color:#0196e3;
+    text-align: center;
+   padding-top: -40px;
+   margin-top: 10px;
+   letter-spacing: 2.5px;
+  }
+  .homepage .paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#fff;
+    margin-left: 27%;
+    margin-right: 27%;
+    margin-top: 10px;
+   
+  }
+  .homepage .paragraph p{
+   
+    padding: 2px; 
+    text-align: center;
+    margin-bottom: -1px;
+    color: black;
+    font-weight: 700px;
+    font-size: 10px;
+  }
+  
+  .rap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: -25px;
+    margin-bottom: -23px;
+  }
+  .rap img{
+    width: 140px;
+    height: auto; 
+    margin-right: -75px;
+  }
+  .text-coll h4, .text-coll span{
+    font-weight: 800;
+    font-size: 18px;
+    font-family: serif;
+    letter-spacing: 1.5px;
+  }
+  .text-coll span{
+      color: rgb(41, 41, 242);
+
+}
+
+}
+
 
 .schedule .schedule-tab {
     display: flex;
@@ -545,6 +1036,7 @@ a {
    justify-content: center;
    align-items: center;
    flex-wrap: wrap;
+   padding-top: 100px;
 }
 .container .card
 {
@@ -716,25 +1208,25 @@ hr {
   background: url("images/partner/partner-3.png") no-repeat center center/contain;
 }
 .partner .partner-box-4 {
-  background: url("images/partner/partner-4.png") no-repeat center center/contain;
+  background: url(../images/partner/partner-4.png) no-repeat center center/contain;
 }
 .partner .partner-box-5 {
-  background: url("images/partner/partner-5.png") no-repeat center center/contain;
+  background: url(../images/partner/partner-5.png) no-repeat center center/contain;
 }
 .partner .partner-box-6 {
-  background: url("images/partner/partner-6.png") no-repeat center center/contain;
+  background: url(../images/partner/partner-6.png) no-repeat center center/contain;
 }
 .partner .partner-box-7 {
-  background: url("images/partner/partner-7.png") no-repeat center center/contain;
+  background: url(../images/partner/partner-7.png) no-repeat center center/contain;
 }
 .partner .partner-box-8 {
-  background: url("images/partner/partner-8.png") no-repeat center center/contain;
+  background: url(../images/partner/partner-8.png) no-repeat center center/contain;
 }
 
 
 /*  ******************************************************** LOCATION *********************************************/
 .cont{
-  background: #3B3B3B url("images/contact-bg.jpg") no-repeat center center;
+  background: #3B3B3B url('../images/contact-bg.jpg') no-repeat center center;
 background-size: cover;
 color: #ffffff;
 
@@ -821,9 +1313,110 @@ margin-top: 0px;
 }
 
 
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #fff;
+}
+.about img{
+	height: auto;
+	width: 430px;
+}
+.about-text{
+	width: 550px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: black;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5{
+  color: black;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+  color: #0196e3;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+.about button{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+  width: 30%;
+  font-size: 15px;
+}
+.about button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
 
 
+@media (max-width:800px){
 
+  html{
+      font-size: 55%;
+  }
+  
+  header{
+      padding:1rem 2rem;
+  }
+
+  section{
+      padding:2rem;
+  }
+   .about .main{
+    display: flex;
+    flex-direction: column;
+   }
+   .about .col{
+    flex-basis: 30%;
+   }
+   .about img{
+    height: auto;
+    width: auto;
+  }
+  .about-text h2{
+    color: black;
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  .about-text h5{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+  }
+  .about-text p{
+    color: #0196e3;
+    letter-spacing: 1px;
+    line-height: 18px;
+    font-size: 18px;
+    margin-bottom: 45px;
+  }
+}
 
 
 
